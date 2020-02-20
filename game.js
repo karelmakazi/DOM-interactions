@@ -41,6 +41,11 @@ function updateCounts () {
     green: 0,
     invisible: 0
   }
+  for (var key in totals){
+    var keyCount = document.getElementsByClassName(key)
+    var keyTally = keyCount.length
+    console.log(key + keyTally)
+  }
   
   // WRITE CODE HERE TO COUNT BLUE, GREEN, AND INVISIBLE DOTS
 
